@@ -14,10 +14,8 @@ const timer = setInterval(function () {
 
 // Task 1.3
 const updateTimer = setInterval(function () {
-	output.textContent -= 1;
 	if (output.textContent == 0) {
 		clearInterval()
 		window.location.href = 'https://www.google.ru/'
 	}
-
 }, 1000)
