@@ -4,7 +4,7 @@ const output = document.getElementById('timer');
 const timer = setInterval(function () {
 	output.textContent -= 1;
 	if (output.textContent == 0) {
-		clearInterval();
+		clearInterval(timer);
 		alert('Вы победили в конкурсе!');
 	}
 }, 1000);
