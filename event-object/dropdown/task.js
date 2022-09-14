@@ -4,7 +4,7 @@ let dropItem = Array.from(document.querySelectorAll('.dropdown__item'));
 let value = document.querySelector('.dropdown__value');
 
 drop.addEventListener('click', function() {
-    dropList.classList.toggle('.dropdown__list_active');
+    dropList.classList.toggle('dropdown__list_active');
 });
 
 dropItem.forEach(item => item.addEventListener('click', function(event) {
